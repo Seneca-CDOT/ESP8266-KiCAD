@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Peapod-PCB-rescue)(type Legacy)(uri "${KIPRJMOD}/Peapod PCB-rescue.lib")(options "")(descr ""))
+  (lib (name esp8266)(type Legacy)(uri ${KIPRJMOD}/lib/esp8266.lib)(options "")(descr ""))
+  (lib (name pushbutton)(type Legacy)(uri ${KIPRJMOD}/lib/pushbutton.lib)(options "")(descr ""))
+)

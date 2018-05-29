@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Peapod PCB-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:esp8266
-LIBS:pushbutton
+EESchema Schematic File Version 4
 LIBS:Peapod PCB-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Battery_Cell BT1
+L Peapod-PCB-rescue:Battery_Cell BT1
 U 1 1 599321E0
 P 4950 4125
 F 0 "BT1" H 5050 4225 50  0000 L CNN
@@ -58,7 +26,7 @@ F 3 "" V 4950 4185 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L power:GND #PWR2
 U 1 1 59932223
 P 4850 4225
 F 0 "#PWR2" H 4850 3975 50  0001 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 4850 4225 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR8
+L power:GND #PWR8
 U 1 1 59932907
 P 6800 4100
 F 0 "#PWR8" H 6800 3850 50  0001 C CNN
@@ -80,7 +48,7 @@ F 3 "" H 6800 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L power:GND #PWR1
 U 1 1 5993357D
 P 4500 3825
 F 0 "#PWR1" H 4500 3575 50  0001 C CNN
@@ -91,7 +59,7 @@ F 3 "" H 4500 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J5
+L Peapod-PCB-rescue:CONN_01X01 J5
 U 1 1 59933C1C
 P 7450 3175
 F 0 "J5" H 7450 3275 50  0000 C CNN
@@ -102,7 +70,7 @@ F 3 "" H 7450 3175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J6
+L Peapod-PCB-rescue:CONN_01X01 J6
 U 1 1 59933C73
 P 7450 3325
 F 0 "J6" H 7450 3425 50  0000 C CNN
@@ -113,7 +81,7 @@ F 3 "" H 7450 3325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J1
+L Peapod-PCB-rescue:CONN_01X01 J1
 U 1 1 59933CDE
 P 4525 3275
 F 0 "J1" H 4525 3375 50  0000 C CNN
@@ -124,7 +92,7 @@ F 3 "" H 4525 3275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR5
+L power:+3.3V #PWR5
 U 1 1 59933FE4
 P 5300 3175
 F 0 "#PWR5" H 5300 3025 50  0001 C CNN
@@ -135,7 +103,7 @@ F 3 "" H 5300 3175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR4
+L power:+3.3V #PWR4
 U 1 1 59934256
 P 4950 3925
 F 0 "#PWR4" H 4950 3775 50  0001 C CNN
@@ -146,7 +114,7 @@ F 3 "" H 4950 3925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L Peapod-PCB-rescue:R R1
 U 1 1 59934609
 P 4675 3025
 F 0 "R1" V 4755 3025 50  0000 C CNN
@@ -194,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	4875 3025 5325 3025
 $Comp
-L R R2
+L Peapod-PCB-rescue:R R2
 U 1 1 59934849
 P 4875 2750
 F 0 "R2" V 4955 2750 50  0000 C CNN
@@ -206,7 +174,7 @@ F 3 "" H 4875 2750 50  0001 C CNN
 $EndComp
 Connection ~ 4875 3025
 $Comp
-L CONN_01X02 J7
+L Peapod-PCB-rescue:CONN_01X02 J7
 U 1 1 5993514F
 P 7450 3600
 F 0 "J7" H 7450 3750 50  0000 C CNN
@@ -221,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 3750 7250 3650
 $Comp
-L R R4
+L Peapod-PCB-rescue:R R4
 U 1 1 59935339
 P 7100 3625
 F 0 "R4" V 7180 3625 50  0000 C CNN
@@ -237,7 +205,7 @@ Wire Wire Line
 	7100 3475 7250 3475
 Connection ~ 7100 3475
 $Comp
-L CONN_01X02 J2
+L Peapod-PCB-rescue:CONN_01X02 J2
 U 1 1 5993627D
 P 5175 2500
 F 0 "J2" H 5175 2650 50  0000 C CNN
@@ -248,7 +216,7 @@ F 3 "" H 5175 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR6
+L power:GND #PWR6
 U 1 1 599363AF
 P 5325 2700
 F 0 "#PWR6" H 5325 2450 50  0001 C CNN
@@ -259,7 +227,7 @@ F 3 "" H 5325 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR12
+L power:+3.3V #PWR12
 U 1 1 599466C8
 P 7100 3875
 F 0 "#PWR12" H 7100 3725 50  0001 C CNN
@@ -274,7 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3775 7100 3875
 $Comp
-L R R3
+L Peapod-PCB-rescue:R R3
 U 1 1 59946DA6
 P 6825 3625
 F 0 "R3" V 6905 3625 50  0000 C CNN
@@ -285,7 +253,7 @@ F 3 "" H 6825 3625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L Peapod-PCB-rescue:R R5
 U 1 1 59946FC4
 P 6800 3925
 F 0 "R5" V 6880 3925 50  0000 C CNN
@@ -302,7 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	6625 3775 6800 3775
 $Comp
-L +3.3V #PWR11
+L power:+3.3V #PWR11
 U 1 1 59948486
 P 6975 3700
 F 0 "#PWR11" H 6975 3550 50  0001 C CNN
@@ -315,7 +283,7 @@ $EndComp
 Wire Wire Line
 	4875 2900 4875 3025
 $Comp
-L GND #PWR3
+L power:GND #PWR3
 U 1 1 5994872F
 P 4875 2525
 F 0 "#PWR3" H 4875 2275 50  0001 C CNN
@@ -328,7 +296,7 @@ $EndComp
 Wire Wire Line
 	4875 2525 4875 2600
 $Comp
-L GND #PWR13
+L power:GND #PWR13
 U 1 1 599488CC
 P 7250 3750
 F 0 "#PWR13" H 7250 3500 50  0001 C CNN
@@ -339,7 +307,7 @@ F 3 "" H 7250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR7
+L power:GND #PWR7
 U 1 1 59948924
 P 6625 4000
 F 0 "#PWR7" H 6625 3750 50  0001 C CNN
@@ -360,7 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	4525 3025 4525 3075
 $Comp
-L ESP8266 U1
+L esp8266:ESP8266 U1
 U 1 1 59932095
 P 5925 3275
 F 0 "U1" H 5825 3675 60  0000 C CNN
@@ -373,7 +341,7 @@ $EndComp
 Wire Wire Line
 	5325 3925 4950 3925
 $Comp
-L CONN_01X06 J3
+L Peapod-PCB-rescue:CONN_01X06 J3
 U 1 1 59947FD8
 P 7500 2450
 F 0 "J3" H 7500 2800 50  0000 C CNN
@@ -384,7 +352,7 @@ F 3 "" H 7500 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L power:GND #PWR10
 U 1 1 599480D5
 P 6875 2200
 F 0 "#PWR10" H 6875 1950 50  0001 C CNN
@@ -397,7 +365,7 @@ $EndComp
 Wire Wire Line
 	6875 2200 7300 2200
 $Comp
-L +3.3V #PWR9
+L power:+3.3V #PWR9
 U 1 1 599481A2
 P 6850 2400
 F 0 "#PWR9" H 6850 2250 50  0001 C CNN
@@ -414,8 +382,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 2875 6800 2600
 Wire Wire Line
-	6800 2600 6800 2600
-Wire Wire Line
 	6800 2600 7300 2600
 Wire Wire Line
 	6625 3025 6625 2500
@@ -426,7 +392,7 @@ Wire Wire Line
 NoConn ~ 7300 2700
 NoConn ~ 7300 2300
 $Comp
-L Pushbutton BTN2
+L pushbutton:Pushbutton BTN2
 U 1 1 5994A123
 P 5150 3475
 F 0 "BTN2" H 5060 3565 40  0000 C CNN
@@ -437,7 +403,7 @@ F 3 "" H 4850 3075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pushbutton BTN1
+L pushbutton:Pushbutton BTN1
 U 1 1 5994A192
 P 4775 3625
 F 0 "BTN1" H 4685 3715 40  0000 C CNN
@@ -448,7 +414,7 @@ F 3 "" H 4475 3225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pushbutton BTN3
+L pushbutton:Pushbutton BTN3
 U 1 1 5994A1EB
 P 5150 3775
 F 0 "BTN3" H 5060 3865 40  0000 C CNN
@@ -459,7 +425,7 @@ F 3 "" H 4850 3375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J4
+L Peapod-PCB-rescue:CONN_01X01 J4
 U 1 1 5995C3B2
 P 5825 2100
 F 0 "J4" H 5825 2200 50  0000 C CNN
@@ -470,7 +436,7 @@ F 3 "" H 5825 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X01 J8
+L Peapod-PCB-rescue:CONN_01X01 J8
 U 1 1 5995C3FF
 P 6375 2100
 F 0 "J8" H 6375 2200 50  0000 C CNN

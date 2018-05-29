@@ -1,0 +1,11 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"G***";"fsoss_logo4";1;"LOGO";;;
+2;"BT1";"BatteryMount";1;"Battery_Cell";;;
+3;"U1";"ESP-12E_SMD";1;"ESP8266";;;
+4;"GND   GPIO0,RESET   GND";"Bridge Pad";2;"CONN_01X02";;;
+5;"VOTE :|,VOTE :),VOTE :(";"Pushbutton";3;"Pushbutton";;;
+6;"ANALOG,GPIO5,GPIO4,RX,TX";"Alligator Pad";5;"CONN_01X01";;;
+7;"FTDI 3.3V";"Pin_Header_Straight_1x06_Pitch2.54mm";1;"CONN_01X06";;;
+8;"R1";"R_0805_HandSoldering";1;"25k";;;
+9;"R2,R3,R4,R5";"R_0805_HandSoldering";4;"10k";;;
+10;"G***";"LOGO";1;"LOGO";;;
